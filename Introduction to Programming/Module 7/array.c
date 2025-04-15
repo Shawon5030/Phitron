@@ -11,3 +11,4 @@ int main(){
     printf("%d",a[0]);
     return 0;
 }
+
