@@ -9,7 +9,7 @@ int main(){
     int len_b = strlen(b);
     int len_a = strlen(a);
     
-    for(int i=len_a,j=0;i<=len_a+len_b;i++,j++){
+    for(int i=len_a,j=0;i<len_a+len_b;i++,j++){
 
         a[i]=b[j];
 
