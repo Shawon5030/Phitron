@@ -1,28 +1,20 @@
 #include <stdio.h>
 int main(){
 
-    int t;
-    scanf("%d",&t);
-
-    while (t--)
-    {
-        int a,b,c;
-        scanf("%d%d%d",&a,&b,&c);
-        long long int sum= (long long int)a+(long long int)b+c;
-        int target=sum/3;
-        if(sum%3==0){
-            if(target>=a && target>=b && (target-a)+(target-b)<=c-target ){
-                printf("YES\n");
-            }
-            else{
-                printf("NO\n");
-            }
-        }
-        else{
-            printf("NO\n");
+    int a;
+    scanf("%d",&a);
+    int cou = 0;
+    for(int i=1,j=a-1;i<a;i++,j--){
+        if(i+j==a && i%2==0 && j%2==0){
+            printf("YES");
+            cou=1;
+            break;
         }
         
+        
+
     }
-    
+
+    if(cou==0)printf("NO");
     return 0;
 }
