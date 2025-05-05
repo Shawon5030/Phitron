@@ -8,7 +8,7 @@ int main(){
     int star=1;
     for(int i=1;i<=4;i++){
 
-        for(int j=space;j>0;j--){
+        for(int j=space;j>;j--){
             printf(" ");
         }
         for(int k=star;k<0;k++){
