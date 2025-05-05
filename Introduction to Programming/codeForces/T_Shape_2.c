@@ -8,10 +8,10 @@ int main(){
     int star=1;
     for(int i=1;i<=4;i++){
 
-        for(int j=space;j>;j--){
+        for(int j=space;j>1;j--){
             printf(" ");
         }
-        for(int k=star;k<0;k++){
+        for(int k=0;k<star;k++){
             printf("*");
         }
         printf("\n");
