@@ -14,6 +14,7 @@ int main(){
         for(int k=star;k<0;k++){
             printf("*");
         }
+        printf("\n");
         star+=2;
         space-=1;
         
