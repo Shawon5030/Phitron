@@ -3,5 +3,5 @@
 int main(){
     
     bool a = false;
-    printf("%d",a);
+    printf("%d",a);;
 }

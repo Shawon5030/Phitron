@@ -19,4 +19,8 @@ int main(){
 
     printf("%d",count);
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f604bd6cf3e3ae7663e23dba22da18dabc8565f7
